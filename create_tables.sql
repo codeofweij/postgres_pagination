@@ -7,6 +7,6 @@ create table namelist (
 create table names(
    id serial primary key,
    name varchar(100) not null,
-   details jsonb 
+   details jsonb,
    when_entered timestamp without time zone NOT NULL DEFAULT now()
 );
